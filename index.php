@@ -28,7 +28,7 @@
   <?php
     $host = "organisationappserver.database.windows.net";
     $user = "alifm";
-    $pass = "testDb123";
+    $pass = "";
     $db = "kflowdb";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
